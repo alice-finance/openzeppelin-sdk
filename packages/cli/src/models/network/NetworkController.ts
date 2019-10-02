@@ -545,7 +545,7 @@ export default class NetworkController {
       this._tryRegisterProxyAdmin(proxyAdmin.address);
       await allPromisesOrError(
         map(proxies, async proxy => {
-          const proxyInstance = await Proxy.at(proxy.address);
+          const proxyInstance = await Proxy.at(proxy.address, { from: proxyAdmin.address });
           const currentAdmin = await proxyInstance.admin();
           if (currentAdmin !== proxyAdmin.address) {
             if (this.appAddress) {
@@ -660,7 +660,7 @@ export default class NetworkController {
         instance = salt
           ? await this.project.createProxyWithSalt(contract, salt, signature, createArgs)
           : await this.project.createProxy(contract, createArgs);
-        proxy = await Proxy.at(instance.address);
+        proxy = await Proxy.at(instance.address, { from: this.project.proxyAdmin.address });
         break;
 
       case ProxyType.Minimal:
@@ -846,7 +846,9 @@ export default class NetworkController {
       const name = { packageName: proxy.package, contractName: proxy.contract };
       const contract = this.contractManager.getContractClass(proxy.package, proxy.contract);
       await this._setSolidityLibs(contract);
-      const currentImplementation = await Proxy.at(proxy.address).implementation();
+      const currentImplementation = await Proxy.at(proxy.address, {
+        from: this.project.proxyAdmin.address,
+      }).implementation();
       const contractImplementation = await this.project.getImplementation(name);
       const projectVersion =
         proxy.package === this.projectFile.name
