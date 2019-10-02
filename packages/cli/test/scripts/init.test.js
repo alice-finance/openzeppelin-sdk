@@ -2,7 +2,7 @@
 require('../setup');
 
 import sinon from 'sinon';
-import { FileSystem as fs } from '@openzeppelin/upgrades';
+import { FileSystem as fs } from '@alice-finance/oz-upgrades';
 import { cleanup } from '../helpers/cleanup';
 
 import init from '../../src/scripts/init';

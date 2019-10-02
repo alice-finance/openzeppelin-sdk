@@ -8,7 +8,7 @@ import {
   StorageLayoutInfo,
   Operation,
   Contract,
-} from '@openzeppelin/upgrades';
+} from '@alice-finance/oz-upgrades';
 import { ContractInterface } from '../models/files/NetworkFile';
 
 const DOCS_HOME = 'https://docs.openzeppelin.com/sdk/2.5';

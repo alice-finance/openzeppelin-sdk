@@ -2,7 +2,7 @@
 
 import fs from 'fs-extra';
 
-import { Loggy } from '@openzeppelin/upgrades';
+import { Loggy } from '@alice-finance/oz-upgrades';
 import { lockSync } from 'lockfile';
 import program from './program';
 import findRootDirectory from './helpers';

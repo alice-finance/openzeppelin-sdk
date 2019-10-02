@@ -3,7 +3,7 @@
 require('../setup');
 import utils from 'web3-utils';
 import sinon from 'sinon';
-import { ZWeb3 } from '@openzeppelin/upgrades';
+import { ZWeb3 } from '@alice-finance/oz-upgrades';
 
 import accounts from '../../src/scripts/accounts';
 import CaptureLogs from '../helpers/captureLogs';

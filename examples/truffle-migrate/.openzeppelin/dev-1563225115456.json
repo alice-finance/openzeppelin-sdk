@@ -28,7 +28,7 @@
       "storage": [
         {
           "contract": "Initializable",
-          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
+          "path": "@alice-finance/oz-upgrades/contracts/Initializable.sol",
           "label": "initialized",
           "astId": 128,
           "type": "t_bool",
@@ -36,7 +36,7 @@
         },
         {
           "contract": "Initializable",
-          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
+          "path": "@alice-finance/oz-upgrades/contracts/Initializable.sol",
           "label": "initializing",
           "astId": 130,
           "type": "t_bool",
@@ -44,7 +44,7 @@
         },
         {
           "contract": "Initializable",
-          "path": "@openzeppelin/upgrades/contracts/Initializable.sol",
+          "path": "@alice-finance/oz-upgrades/contracts/Initializable.sol",
           "label": "______gap",
           "astId": 186,
           "type": "t_array:50<t_uint256>",

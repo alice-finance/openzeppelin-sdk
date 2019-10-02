@@ -9,7 +9,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@openzeppelin/upgrades": "^2.5.3",
+    "@alice-finance/oz-upgrades": "^2.5.3",
     "truffle": "^5.0.3"
   },
   "devDependencies": {

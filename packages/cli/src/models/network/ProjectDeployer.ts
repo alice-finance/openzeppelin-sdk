@@ -7,7 +7,7 @@ import {
   Package,
   ImplementationDirectory,
   TxParams,
-} from '@openzeppelin/upgrades';
+} from '@alice-finance/oz-upgrades';
 
 import NetworkController from './NetworkController';
 import ProjectFile from '../files/ProjectFile';

@@ -2,7 +2,7 @@
 require('../setup');
 
 import utils from 'web3-utils';
-import { ZWeb3 } from '@openzeppelin/upgrades';
+import { ZWeb3 } from '@alice-finance/oz-upgrades';
 
 import transfer from '../../src/scripts/transfer';
 

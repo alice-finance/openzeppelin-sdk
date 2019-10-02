@@ -2,7 +2,7 @@ import path from 'path';
 import pick from 'lodash.pick';
 import omit from 'lodash.omit';
 import isUndefined from 'lodash.isundefined';
-import { FileSystem } from '@openzeppelin/upgrades';
+import { FileSystem } from '@alice-finance/oz-upgrades';
 
 interface NetworkConfigInterface extends ConfigInterface {
   artifactDefaults: ArtifactDefaults;

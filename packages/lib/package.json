@@ -1,5 +1,5 @@
 {
-  "name": "@openzeppelin/upgrades",
+  "name": "@alice-finance/oz-upgrades",
   "version": "2.5.3",
   "description": "JavaScript library for the OpenZeppelin smart contract platform",
   "main": "./lib/index.js",
@@ -47,12 +47,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OpenZeppelin/openzeppelin-sdk.git"
+    "url": "git+https://github.com/alice-finance/openzeppelin-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/OpenZeppelin/openzeppelin-sdk/issues"
+    "url": "https://github.com/alice-finance/openzeppelin-sdk/issues"
   },
-  "homepage": "https://github.com/OpenZeppelin/openzeppelin-sdk/tree/master/packages/lib#readme",
+  "homepage": "https://github.com/alice-finance/openzeppelin-sdk/tree/master/packages/lib#readme",
   "dependencies": {
     "@types/cbor": "^2.0.0",
     "@types/web3": "^1.0.14",

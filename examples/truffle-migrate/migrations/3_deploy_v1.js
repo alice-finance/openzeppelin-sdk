@@ -1,5 +1,5 @@
 // Load zos scripts and truffle wrapper function
-const { ConfigManager, scripts } = require('@openzeppelin/cli');
+const { ConfigManager, scripts } = require('@alice-finance/oz-cli');
 const { add, push, update } = scripts;
 
 async function deploy(options) {

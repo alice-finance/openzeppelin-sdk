@@ -1,5 +1,5 @@
 import pickBy from 'lodash.pickby';
-import { Loggy } from '@openzeppelin/upgrades';
+import { Loggy } from '@alice-finance/oz-upgrades';
 
 import link from './link';
 import add from './add';

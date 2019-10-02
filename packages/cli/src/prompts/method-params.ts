@@ -1,4 +1,4 @@
-import { ContractMethodMutability as Mutability } from '@openzeppelin/upgrades';
+import { ContractMethodMutability as Mutability } from '@alice-finance/oz-upgrades';
 import pickBy from 'lodash.pickby';
 import isUndefined from 'lodash.isundefined';
 import negate from 'lodash.negate';

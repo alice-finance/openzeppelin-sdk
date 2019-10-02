@@ -1,4 +1,4 @@
-import { Contracts, Contract, FileSystem } from '@openzeppelin/upgrades';
+import { Contracts, Contract, FileSystem } from '@alice-finance/oz-upgrades';
 import Dependency from '../dependency/Dependency';
 import ProjectFile from '../files/ProjectFile';
 import ConfigManager from '../config/ConfigManager';

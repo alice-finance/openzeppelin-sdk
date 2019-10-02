@@ -2,7 +2,7 @@
 
 require('../setup');
 
-import { Contracts } from '@openzeppelin/upgrades';
+import { Contracts } from '@alice-finance/oz-upgrades';
 import TestHelper from '../../src/models/TestHelper';
 import ProjectFile from '../../src/models/files/ProjectFile';
 import NetworkFile from '../../src/models/files/NetworkFile';

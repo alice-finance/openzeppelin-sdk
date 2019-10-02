@@ -2,7 +2,7 @@
 require('../setup');
 
 import utils from 'web3-utils';
-import { ZWeb3, Contracts } from '@openzeppelin/upgrades';
+import { ZWeb3, Contracts } from '@alice-finance/oz-upgrades';
 import CaptureLogs from '../helpers/captureLogs';
 
 import balance from '../../src/scripts/balance';

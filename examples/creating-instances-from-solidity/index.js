@@ -12,12 +12,12 @@
 // Import node dependencies.
 const fs = require('fs');
 
-// Retrieve @openzeppelin/cli scripts.
+// Retrieve @alice-finance/oz-cli scripts.
 // These are analogous to `openzeppelin` CLI commands.
-const { init, add, push, create } = require('@openzeppelin/cli').scripts;
+const { init, add, push, create } = require('@alice-finance/oz-cli').scripts;
 
-// Import @openzeppelin/upgrades dependencies.
-const { ZWeb3, Contracts, encodeCall } = require('@openzeppelin/upgrades');
+// Import @alice-finance/oz-upgrades dependencies.
+const { ZWeb3, Contracts, encodeCall } = require('@alice-finance/oz-upgrades');
 
 // Main entry point, called by `truffle exec`.
 async function main() {
@@ -101,7 +101,7 @@ async function main() {
   // This is the main concept of this example: proxies can be created from deployed contracts.
   console.log(`Creating proxy instance of Instance.sol (via Factory.sol)...`);
   const transactionReceipt = await factoryContract.methods.createInstance(data).send(txParams);
-  const uint256ToAddress = require('@openzeppelin/upgrades/lib/utils/Addresses.js').uint256ToAddress;
+  const uint256ToAddress = require('@alice-finance/oz-upgrades/lib/utils/Addresses.js').uint256ToAddress;
   const instanceAddress = uint256ToAddress(transactionReceipt.events['0'].raw.data);
   console.log(`Instance proxy created at ${instanceAddress}`);
 

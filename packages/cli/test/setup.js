@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 
 process.env.NODE_ENV = 'test';
 
-import { ZWeb3, Contracts, Loggy } from '@openzeppelin/upgrades';
+import { ZWeb3, Contracts, Loggy } from '@alice-finance/oz-upgrades';
 import { OPEN_ZEPPELIN_FOLDER } from '../src/models/files/constants';
 import Dependency from '../src/models/dependency/Dependency';
 import ProjectFile from '../src/models/files/ProjectFile';
@@ -20,7 +20,7 @@ Loggy.testing(true);
 require('chai')
   .use(require('chai-as-promised'))
   .use(require('chai-string'))
-  .use(require('@openzeppelin/upgrades').assertions)
+  .use(require('@alice-finance/oz-upgrades').assertions)
   .use(require('sinon-chai'))
   .should();
 

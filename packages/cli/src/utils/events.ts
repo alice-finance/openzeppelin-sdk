@@ -1,4 +1,4 @@
-import { Loggy } from '@openzeppelin/upgrades';
+import { Loggy } from '@alice-finance/oz-upgrades';
 
 export function describeEvents(events: any): void {
   let description = '';

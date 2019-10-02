@@ -1,7 +1,7 @@
 'use strict';
 require('../setup');
 
-import { Proxy, ProxyAdmin } from '@openzeppelin/upgrades';
+import { Proxy, ProxyAdmin } from '@alice-finance/oz-upgrades';
 
 import push from '../../src/scripts/push';
 import createProxy from '../../src/scripts/create';

@@ -1,4 +1,4 @@
-import { Contracts, Contract } from '@openzeppelin/upgrades';
+import { Contracts, Contract } from '@alice-finance/oz-upgrades';
 import { fromContractFullName } from './naming';
 import Dependency from '../models/dependency/Dependency';
 

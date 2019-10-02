@@ -10,8 +10,8 @@
   "author": "santiago@openzeppelin.com",
   "license": "MIT",
   "dependencies": {
-    "@openzeppelin/cli": "^2.5.3",
-    "@openzeppelin/upgrades": "^2.5.3",
+    "@alice-finance/oz-cli": "^2.5.3",
+    "@alice-finance/oz-upgrades": "^2.5.3",
     "web3": "1.2.1"
   },
   "devDependencies": {

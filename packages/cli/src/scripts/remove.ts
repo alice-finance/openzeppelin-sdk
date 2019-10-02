@@ -1,4 +1,4 @@
-import { Loggy } from '@openzeppelin/upgrades';
+import { Loggy } from '@alice-finance/oz-upgrades';
 
 import LocalController from '../models/local/LocalController';
 import { RemoveParams } from './interfaces';

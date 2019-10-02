@@ -1,7 +1,7 @@
 'use strict'
 process.env.NODE_ENV = 'test'
 
-import { ZWeb3, Contracts } from '@openzeppelin/upgrades'
+import { ZWeb3, Contracts } from '@alice-finance/oz-upgrades'
 
 ZWeb3.initialize(web3.currentProvider)
 
@@ -11,5 +11,5 @@ Contracts.setArtifactsDefaults({
 })
 
 require('chai')
-  .use(require('@openzeppelin/upgrades').assertions)
+  .use(require('@alice-finance/oz-upgrades').assertions)
   .should()

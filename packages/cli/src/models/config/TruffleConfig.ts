@@ -2,7 +2,7 @@ import pickBy from 'lodash.pickby';
 import pick from 'lodash.pick';
 import npm from 'npm-programmatic';
 import semver from 'semver';
-import { FileSystem, Loggy } from '@openzeppelin/upgrades';
+import { FileSystem, Loggy } from '@alice-finance/oz-upgrades';
 import TruffleConfigModule from 'truffle-config';
 
 const TruffleConfig = {

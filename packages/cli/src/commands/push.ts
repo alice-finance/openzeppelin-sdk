@@ -1,6 +1,6 @@
 import omit from 'lodash.omit';
 import isString from 'lodash.isstring';
-import { ZWeb3 } from '@openzeppelin/upgrades';
+import { ZWeb3 } from '@alice-finance/oz-upgrades';
 
 import add from './add';
 import push from '../scripts/push';

@@ -1,10 +1,10 @@
 'use strict';
 
-// Required by @openzeppelin/upgrades when running from truffle
+// Required by @alice-finance/oz-upgrades when running from truffle
 global.artifacts = artifacts;
 global.web3 = web3;
 
-const { Contracts, SimpleProject, ZWeb3 } = require('@openzeppelin/upgrades')
+const { Contracts, SimpleProject, ZWeb3 } = require('@alice-finance/oz-upgrades')
 
 async function main() {
 

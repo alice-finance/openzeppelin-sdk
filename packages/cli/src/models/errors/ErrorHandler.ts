@@ -1,5 +1,5 @@
 import { Command } from 'commander';
-import { Loggy } from '@openzeppelin/upgrades';
+import { Loggy } from '@alice-finance/oz-upgrades';
 import ScriptError from './ScriptError';
 
 const GENERIC_ERROR_MESSAGE =

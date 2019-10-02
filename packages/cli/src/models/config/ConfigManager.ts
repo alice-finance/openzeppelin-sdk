@@ -1,4 +1,4 @@
-import { ZWeb3, Contracts, TxParams } from '@openzeppelin/upgrades';
+import { ZWeb3, Contracts, TxParams } from '@alice-finance/oz-upgrades';
 import TruffleConfig from './TruffleConfig';
 import Session from '../network/Session';
 import NetworkConfig from './NetworkConfig';

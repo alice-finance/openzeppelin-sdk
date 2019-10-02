@@ -2,7 +2,7 @@
 require('../setup');
 
 import CaptureLogs from '../helpers/captureLogs';
-import { Contracts, getStorageLayout, compareStorageLayouts, getBuildArtifacts } from '@openzeppelin/upgrades';
+import { Contracts, getStorageLayout, compareStorageLayouts, getBuildArtifacts } from '@alice-finance/oz-upgrades';
 import ValidationLogger from '../../src/interface/ValidationLogger';
 
 contract('ValidationLogger', function() {

@@ -2,7 +2,7 @@ import stdout from '../utils/stdout';
 import NetworkController from '../models/network/NetworkController';
 import ScriptError from '../models/errors/ScriptError';
 import { CreateParams } from './interfaces';
-import { Loggy } from '@openzeppelin/upgrades';
+import { Loggy } from '@alice-finance/oz-upgrades';
 import { validateSalt } from '../utils/input';
 
 export default async function querySignedDeployment({

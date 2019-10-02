@@ -1,7 +1,7 @@
 'use strict'
 require('./setup')
 
-import { Contracts, encodeCall } from '@openzeppelin/upgrades'
+import { Contracts, encodeCall } from '@alice-finance/oz-upgrades'
 import shouldBehaveLikeDonations from './behaviors/Donations.behavior.js'
 
 const DonationsV1 = Contracts.getFromLocal('DonationsV1')

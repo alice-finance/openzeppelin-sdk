@@ -1,4 +1,4 @@
-import { ZWeb3, Loggy } from '@openzeppelin/upgrades';
+import { ZWeb3, Loggy } from '@alice-finance/oz-upgrades';
 
 export default async function accounts({ network }: { network: string }): Promise<void | never> {
   const defaultAccount = await ZWeb3.defaultAccount();

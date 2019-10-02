@@ -1,8 +1,8 @@
 'use strict';
 require('../setup');
 
-const zosLib = require('@openzeppelin/upgrades');
-import { ZWeb3, Contracts, App, Package, ProxyAdmin, ProxyFactory } from '@openzeppelin/upgrades';
+const zosLib = require('@alice-finance/oz-upgrades');
+import { ZWeb3, Contracts, App, Package, ProxyAdmin, ProxyFactory } from '@alice-finance/oz-upgrades';
 
 import sinon from 'sinon';
 import push from '../../src/scripts/push';
@@ -19,7 +19,7 @@ const should = require('chai').should();
 
 const ImplV1 = Contracts.getFromLocal('ImplV1');
 const WithLibraryImplV1 = Contracts.getFromLocal('WithLibraryImplV1');
-const ImplementationDirectory = Contracts.getFromNodeModules('@openzeppelin/upgrades', 'ImplementationDirectory');
+const ImplementationDirectory = Contracts.getFromNodeModules('@alice-finance/oz-upgrades', 'ImplementationDirectory');
 
 contract('push script', function([_, owner]) {
   const network = 'test';

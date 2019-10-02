@@ -11,7 +11,7 @@ import {
   validate as validateContract,
   validationPasses,
   TxParams,
-} from '@openzeppelin/upgrades';
+} from '@alice-finance/oz-upgrades';
 
 import Session from '../network/Session';
 import Dependency from '../dependency/Dependency';

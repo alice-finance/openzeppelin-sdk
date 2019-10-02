@@ -1,7 +1,7 @@
 import path from 'path';
 import flatMap from 'lodash.flatmap';
 import semver from 'semver';
-import { Loggy } from '@openzeppelin/upgrades';
+import { Loggy } from '@alice-finance/oz-upgrades';
 import solc, {
   CompilerOptimizerOptions,
   CompilerSettings,

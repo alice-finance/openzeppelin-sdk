@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "@openzeppelin/upgrades/contracts/Initializable.sol";
+import "@alice-finance/oz-upgrades/contracts/Initializable.sol";
 
 // TODO: Update these import paths to @openzeppelin/contracts-ethereum-package once it is released
 import "openzeppelin-eth/contracts/token/ERC20/IERC20.sol";

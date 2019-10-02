@@ -1,6 +1,6 @@
 import BN from 'bignumber.js';
 import flattenDeep from 'lodash.flattendeep';
-import { encodeParams, Loggy, ZWeb3 } from '@openzeppelin/upgrades';
+import { encodeParams, Loggy, ZWeb3 } from '@alice-finance/oz-upgrades';
 
 // TODO: Deprecate in favor of a combination of parseArg and parseArray
 export function parseArgs(args: string): string[] | never {

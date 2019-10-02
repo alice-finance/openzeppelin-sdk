@@ -1,4 +1,4 @@
-import { Loggy } from '@openzeppelin/upgrades';
+import { Loggy } from '@alice-finance/oz-upgrades';
 
 export default class CaptureLogs {
   constructor() {

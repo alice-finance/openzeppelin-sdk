@@ -1,4 +1,4 @@
-import { assertRevert } from '@openzeppelin/upgrades'
+import { assertRevert } from '@alice-finance/oz-upgrades'
 import getBalance from '../helpers/getBalance.js'
 
 export default function(owner, donor, wallet) {

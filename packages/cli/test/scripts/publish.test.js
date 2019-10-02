@@ -1,7 +1,7 @@
 'use strict';
 require('../setup');
 
-import { App, Package, ImplementationDirectory, Proxy } from '@openzeppelin/upgrades';
+import { App, Package, ImplementationDirectory, Proxy } from '@alice-finance/oz-upgrades';
 
 import publish from '../../src/scripts/publish';
 import push from '../../src/scripts/push';

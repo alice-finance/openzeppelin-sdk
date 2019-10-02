@@ -16,7 +16,7 @@ import {
   constructorCode,
   semanticVersionToString,
   Contract,
-} from '@openzeppelin/upgrades';
+} from '@alice-finance/oz-upgrades';
 import { fromContractFullName, toContractFullName } from '../../utils/naming';
 import { MANIFEST_VERSION, checkVersion } from './ManifestVersion';
 import ProjectFile from './ProjectFile';

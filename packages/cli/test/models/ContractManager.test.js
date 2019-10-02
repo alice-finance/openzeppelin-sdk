@@ -3,7 +3,7 @@
 require('../setup');
 
 import sinon from 'sinon';
-import { FileSystem, Contracts } from '@openzeppelin/upgrades';
+import { FileSystem, Contracts } from '@alice-finance/oz-upgrades';
 import ContractManager from '../../src/models/local/ContractManager';
 import ProjectFile from '../../src/models/files/ProjectFile';
 import ConfigManager from '../../src/models/config/ConfigManager';

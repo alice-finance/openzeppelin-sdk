@@ -15,7 +15,7 @@ import {
   Contract,
   getSolidityLibNames,
   Loggy,
-} from '@openzeppelin/upgrades';
+} from '@alice-finance/oz-upgrades';
 import ProjectFile, { LEGACY_PROJECT_FILE_NAME, PROJECT_FILE_PATH } from '../files/ProjectFile';
 import NetworkFile from '../files/NetworkFile';
 import { OPEN_ZEPPELIN_FOLDER } from '../files/constants';

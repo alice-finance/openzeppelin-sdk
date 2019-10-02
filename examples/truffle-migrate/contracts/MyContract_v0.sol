@@ -1,6 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "@openzeppelin/upgrades/contracts/Initializable.sol";
+import "@alice-finance/oz-upgrades/contracts/Initializable.sol";
 
 contract MyContract_v0 is Initializable {
   uint256 public value;

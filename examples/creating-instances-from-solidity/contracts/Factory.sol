@@ -1,7 +1,7 @@
 pragma solidity ^0.5.0;
 
-import "@openzeppelin/upgrades/contracts/Initializable.sol";
-import "@openzeppelin/upgrades/contracts/application/App.sol";
+import "@alice-finance/oz-upgrades/contracts/Initializable.sol";
+import "@alice-finance/oz-upgrades/contracts/application/App.sol";
 
 contract Factory is Initializable {
 

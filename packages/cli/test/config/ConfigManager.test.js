@@ -2,7 +2,7 @@
 require('../setup');
 
 import sinon from 'sinon';
-import { FileSystem, Contracts, ZWeb3 } from '@openzeppelin/upgrades';
+import { FileSystem, Contracts, ZWeb3 } from '@alice-finance/oz-upgrades';
 
 import ConfigManager from '../../src/models/config/ConfigManager';
 

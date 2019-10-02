@@ -1,6 +1,6 @@
 import NetworkController from '../models/network/NetworkController';
 import NetworkFile from '../models/files/NetworkFile';
-import { ProxyAdminProject, AppProject, TxParams } from '@openzeppelin/upgrades';
+import { ProxyAdminProject, AppProject, TxParams } from '@alice-finance/oz-upgrades';
 
 /**
  * Initializes a zOS application testing and deploying it to the test network,

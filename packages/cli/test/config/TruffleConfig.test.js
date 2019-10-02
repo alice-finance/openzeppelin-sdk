@@ -3,7 +3,7 @@ require('../setup');
 import npm from 'npm-programmatic';
 import sinon from 'sinon';
 
-import { FileSystem } from '@openzeppelin/upgrades';
+import { FileSystem } from '@alice-finance/oz-upgrades';
 import TruffleConfig from '../../src/models/config/TruffleConfig';
 import CaptureLogs from '../helpers/captureLogs';
 

@@ -2,7 +2,7 @@
 require('../setup');
 
 import utils from 'web3-utils';
-import { Proxy, Contracts, toSemanticVersion } from '@openzeppelin/upgrades';
+import { Proxy, Contracts, toSemanticVersion } from '@alice-finance/oz-upgrades';
 
 import push from '../../src/scripts/push';
 import create from '../../src/scripts/create';

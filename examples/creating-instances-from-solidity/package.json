@@ -13,10 +13,10 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@openzeppelin/upgrades": "^2.5.3"
+    "@alice-finance/oz-upgrades": "^2.5.3"
   },
   "devDependencies": {
-    "@openzeppelin/cli": "^2.5.3",
+    "@alice-finance/oz-cli": "^2.5.3",
     "truffle": "^5.0.5"
   }
 }

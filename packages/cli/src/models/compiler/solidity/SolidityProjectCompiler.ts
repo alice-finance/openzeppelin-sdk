@@ -6,7 +6,7 @@ import omitBy from 'lodash.omitby';
 import isUndefined from 'lodash.isundefined';
 import { readJsonSync, ensureDirSync, readJSON, writeJson, unlink } from 'fs-extra';
 import { statSync, existsSync, readdirSync, lstatSync } from 'fs';
-import { Loggy, Contracts } from '@openzeppelin/upgrades';
+import { Loggy, Contracts } from '@alice-finance/oz-upgrades';
 import {
   RawContract,
   CompiledContract,

@@ -4,7 +4,7 @@ require('../setup');
 import random from 'lodash.random';
 
 import CaptureLogs from '../helpers/captureLogs';
-import { Contracts, Logger, helpers, Proxy, MinimalProxy, assertRevert } from '@openzeppelin/upgrades';
+import { Contracts, Logger, helpers, Proxy, MinimalProxy, assertRevert } from '@alice-finance/oz-upgrades';
 
 import add from '../../src/scripts/add';
 import push from '../../src/scripts/push';

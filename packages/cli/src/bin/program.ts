@@ -2,7 +2,7 @@
 
 import chalk from 'chalk';
 import program from 'commander';
-import { Loggy } from '@openzeppelin/upgrades';
+import { Loggy } from '@alice-finance/oz-upgrades';
 import commands from '../commands';
 import registerErrorHandler from './errors';
 

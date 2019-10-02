@@ -1,4 +1,4 @@
-import { ZWeb3 } from '@openzeppelin/upgrades';
+import { ZWeb3 } from '@alice-finance/oz-upgrades';
 import session from '../scripts/session';
 import { promptIfNeeded, networksList, InquirerQuestions } from '../prompts/prompt';
 import ConfigManager from '../models/config/ConfigManager';

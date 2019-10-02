@@ -1,7 +1,7 @@
 'use strict'
 require('../setup')
 
-import { assertRevert } from '@openzeppelin/upgrades'
+import { assertRevert } from '@alice-finance/oz-upgrades'
 import shouldBehaveLikeDonations from './Donations.behavior.js'
 
 export default function(owner, donor, wallet, tokenName, tokenSymbol) {

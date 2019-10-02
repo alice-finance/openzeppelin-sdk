@@ -1,6 +1,6 @@
 require('../../../setup');
 
-import { FileSystem } from '@openzeppelin/upgrades';
+import { FileSystem } from '@alice-finance/oz-upgrades';
 import { compileProject } from '../../../../src/models/compiler/solidity/SolidityProjectCompiler';
 import { unlinkSync, existsSync, statSync, utimesSync, writeFileSync } from 'fs';
 import path from 'path';

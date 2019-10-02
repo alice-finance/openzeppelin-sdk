@@ -1,4 +1,4 @@
-import { FileSystem as fs } from '@openzeppelin/upgrades';
+import { FileSystem as fs } from '@alice-finance/oz-upgrades';
 
 export function cleanup(path) {
   try {

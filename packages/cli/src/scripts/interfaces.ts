@@ -1,4 +1,4 @@
-import { TxParams } from '@openzeppelin/upgrades';
+import { TxParams } from '@alice-finance/oz-upgrades';
 
 import ProjectFile from '../models/files/ProjectFile';
 import NetworkFile from '../models/files/NetworkFile';

@@ -1,5 +1,5 @@
 {
-  "name": "@openzeppelin/cli",
+  "name": "@alice-finance/oz-cli",
   "version": "2.5.3",
   "description": "Command-line interface for the OpenZeppelin smart contract platform",
   "main": "./lib/index.js",
@@ -44,19 +44,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/OpenZeppelin/openzeppelin-sdk.git"
+    "url": "git+ssh://git@github.com/alice-finance/openzeppelin-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/OpenZeppelin/openzeppelin-sdk/issues"
+    "url": "https://github.com/alice-finance/openzeppelin-sdk/issues"
   },
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "https://github.com/OpenZeppelin/openzeppelin-sdk/tree/master/packages/cli#readme",
+  "homepage": "https://github.com/alice-finance/openzeppelin-sdk/tree/master/packages/cli#readme",
   "dependencies": {
     "@openzeppelin/resolver-engine-core": "^0.3.3",
     "@openzeppelin/resolver-engine-imports-fs": "^0.3.3",
-    "@openzeppelin/upgrades": "^2.5.3",
+    "@alice-finance/oz-upgrades": "^2.5.3",
     "@types/fs-extra": "^7.0.0",
     "@types/npm": "^2.0.29",
     "@types/semver": "^5.5.0",

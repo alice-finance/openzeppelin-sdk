@@ -38,7 +38,7 @@ import {
   SimpleProject,
   AppProxyMigrator,
   MinimalProxy,
-} from '@openzeppelin/upgrades';
+} from '@alice-finance/oz-upgrades';
 import { isMigratableManifestVersion } from '../files/ManifestVersion';
 import { allPromisesOrError } from '../../utils/async';
 import { toContractFullName } from '../../utils/naming';
